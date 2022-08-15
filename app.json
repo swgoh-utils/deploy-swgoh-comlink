@@ -1,0 +1,7 @@
+{
+  "name": "swgoh-comlink",
+  "description": "SWGOH api to access game data.",
+  "repository": "https://github.com/kidori78/swgoh-comlink",
+  "keywords": ["docker"],
+  "stack": "container"
+}
