@@ -44,7 +44,8 @@ In order to update SWGOH Comlink when a new release comes out you must follow th
 
 #### 1. Create a GitHub account.
 
-#### 2. Fork this repository.
+#### 2. Fork this repository or copy the files from this repo into a new private repo.
+If you Fork this repo it will remain public and others can see the app you have delpoyed it to. It is recommended that you copy these files to a private repo to keep others from using your Dyno hours.
 
 #### 3. In your Heroku account for this Dyno go to `Deploy`
 
