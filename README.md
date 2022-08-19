@@ -9,7 +9,7 @@ The free version of Heroku is limited on how much data it can deliver at one tim
 You only get 500 hours for using SWGOH Comlink each month, you must add a credit card to your account to increase it to 900 hours which would allow for it to run 24/7 if needed.
 
 ### Comlink limitations
-In order to calculate stats for player rosters you must use the roster data with [SWGOH Stats](https://gitlab.com/swgoh-tools/swgoh-stats) which may need to be hosted on a separate Heroku account. You can use the following link to quickly set it up on Heroku: [sw-goh-tools/heroku-swgoh-stats](https://github.com/swgoh-utils/heroku-swgoh-stats).
+In order to calculate stats for player rosters you must use the roster data with [SWGOH Stats](https://gitlab.com/swgoh-tools/swgoh-stats) which may need to be hosted on a separate Heroku account. You can use the following link to quickly set it up on Heroku: [swgoh-utils/heroku-swgoh-stats](https://github.com/swgoh-utils/heroku-swgoh-stats).
 
 
 ## Deploy steps
