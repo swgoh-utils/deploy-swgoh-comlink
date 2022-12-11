@@ -1,2 +1,2 @@
-FROM registry.gitlab.com/swgoh-tools/swgoh-comlink:latest
+FROM ghcr.io/swgoh-utils/swgoh-comlink:latest
 ENV TINI_SUBREAPER=true
