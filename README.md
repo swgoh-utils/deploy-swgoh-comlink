@@ -1,7 +1,7 @@
 # Deploy SWGOH Comlink to Heroku
 This repo is used to create a quick and easy way to deploy and update SWGOH Comlink on Heroku using GitHub.
 
-Visit the main [SWGOH Comlink repo on GitLab](https://gitlab.com/swgoh-tools/swgoh-comlink) to learn more about what SWGOH Comlink is and how to use it.
+Visit the main [SWGOH Comlink repo](https://github.com/swgoh-utils/swgoh-comlink) to learn more about what SWGOH Comlink is and how to use it.
 
 ### Heroku limitations
 The free version of Heroku is limited on how much data it can deliver at one time. This means you will have to _request the localization file in zip format_ from the `/localization` endpoint and you must request information from the `/data` endpoint _in segments_, prefereably with `includePveUnits` set to false.
