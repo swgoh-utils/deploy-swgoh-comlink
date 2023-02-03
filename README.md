@@ -9,7 +9,7 @@ If you are looking to use a free hosting service to run Comlink be sure to caref
 Check out [Discord](https://discord.gg/Kwnrfwu2NP) for a list of free hosting providers that work decent with Comlink.
 
 ### Comlink limitations
-In order to calculate stats for player rosters you must use the roster data with [SWGOH Stats](https://github.com/swgoh-utils/swgoh-stats) which may need to be hosted on a separate account if you are using free hosting. You can use the following repo to quickly set it up: [swgoh-utils/heroku-swgoh-stats](https://github.com/swgoh-utils/heroku-swgoh-stats).
+In order to calculate stats for player rosters you must use the roster data with [SWGOH Stats](https://github.com/swgoh-utils/swgoh-stats) which may need to be hosted on a separate account if you are using free hosting. You can use the following repo to quickly set it up: [swgoh-utils/deploy-swgoh-stats](https://github.com/swgoh-utils/deploy-swgoh-stats).
 
 _
 ## GENERAL DEPLOY STEPS
@@ -42,7 +42,7 @@ _
 ## START UP HELP BY HOSTING PROVIDER
 ### Heroku
 1. Click the button.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fheroku-swgoh-comlink&template=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fheroku-swgoh-comlink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fdeploy-swgoh-comlink&template=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fdeploy-swgoh-comlink)
 
 2. Create the application with a unique name and press `Deploy app` button.
 
