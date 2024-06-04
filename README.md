@@ -16,7 +16,7 @@ In order to calculate stats for player rosters you must use the roster data with
 
 \_
 
-## GENERAL DEPLOY STEPS
+## GENERAL DEPLOY STEPS USING GITHUB
 
 #### 1. Create a GitHub account.
 
@@ -46,32 +46,26 @@ Setting an access key and secret key will keep unauthorized users from using you
 
 \_
 
+## GENERAL DEPLOY STEPS USING DOCKER
+1. Create an account on the hosting service if you have not already and then navigate in their dashboard to where you can add a new application/dyno/service. Make sure to select Web Service for the application type.
+
+2. Choose to add the applictaion from an existing registry. The option should say or mention Docker or Docker Hub somewhere in it.
+
+3. For the image URL use the following: ***ghcr.io/swgoh-utils/swgoh-comlink:latest***
+
+4. Follow the steps for selecting a name for your dyno, select the appropriate price tier you want to use, and then enter the above mentioned Environment Variables.
+
+
 ## START UP HELP BY HOSTING PROVIDER
+### Render
+1. After setting up an account go to your dashboard and select New then select Web Service
 
-### Heroku
+2. Click Build and deploy from a Github repository then follow above steps for copying this repo from the General deploy steps. Alternatively you can select the Deploy an existing image from a registry and then entering the image URL from the General Deploy Steps Using Docker option.
 
-1. Click the button.
-   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fdeploy-swgoh-comlink&template=https%3A%2F%2Fgithub.com%2Fswgoh-utils%2Fdeploy-swgoh-comlink)
+### Northflank
+1. After setting up an account, choose to set up a new Web Service and select the Docker option.
 
-2. Create the application with a unique name and press `Deploy app` button.
-
-3. Once deployed press `Manage App` button under the installation log window.
-
-4. Go to the Settings tab.
-
-5. Press `Reveal Config Vars` button in the Config Vars section and set environment variables.
-
-6. Check to see if the Dyno is running by going to the `Overview Tab` and seeing if it is listed as On under Dyno formation. If it is not, activate it under the `Resources tab` by clicking the slide bar to the right of it.
-
-7. Check logs for any errors by going to `More -> View logs` located in the top right corner of the page.
-
-8. In your Heroku account for this Dyno go to `Deploy`
-
-9. Select `GitHub` as your deployment method and enter your login credentials in `Connect to GIthub`
-
-10. Search for the name of the forked repo and select Connect
-
-11. Any time the version of SWGOH Comlink needs to be updated, go down to the `Manual Deploy` section on the `Deploy`screen, choose the branch and the click `Deploy Branch`
+2. Follow the General Deploy Steps Using Docker above.
 
 ### Railway (railway.app)
 
